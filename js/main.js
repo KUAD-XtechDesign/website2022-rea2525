@@ -4,4 +4,9 @@ $(function(){//おまじない
     $("body").toggleClass('open_menu');
   })
 
+
+  $("p.item").on("click",()=>{
+    alert('test');
+  })
+
 });//おまじない

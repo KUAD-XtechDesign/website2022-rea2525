@@ -395,3 +395,15 @@ profileページ
 .mb_m {
   margin-bottom: 20px;
 }
+
+
+
+.img_container{
+  position: relative;
+}
+
+.img_container p.item{
+  position: absolute;
+  
+
+}
