@@ -5,8 +5,9 @@ $(function(){//おまじない
   })
 
 
-  $("p.item").on("click",()=>{
-    alert('test');
+  $("p.item").on("click",function(){
+    let txt = $(this).data('txt');
+    $(".item_txt").text(txt)
   })
 
 });//おまじない
