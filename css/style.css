@@ -405,6 +405,19 @@ profileページ
 .img_container p.item{
   position: absolute;
   background-color: #ff9a02;
+  cursor: pointer;
 
 }
 
+.item_txt{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  font-size: 30px;
+  font-weight: bold;
+}
