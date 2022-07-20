@@ -421,3 +421,22 @@ profileページ
   font-size: 30px;
   font-weight: bold;
 }
+
+
+/* 左上のボタンセット */
+.btn_set{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+}
+
+.btn_set a{
+  display: block;
+  width: 50px;
+  margin: 10px;
+}
+
+.btn_set a:hover{
+  opacity: 1;
+}
