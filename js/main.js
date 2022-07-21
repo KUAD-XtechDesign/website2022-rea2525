@@ -4,4 +4,10 @@ $(function(){//おまじない
     $("body").toggleClass('open_menu');
   })
 
+
+  $("p.item").on("click",function(){
+    let txt = $(this).data('txt');
+    $(".item_txt").text(txt)
+  })
+
 });//おまじない
