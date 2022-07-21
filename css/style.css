@@ -432,10 +432,11 @@ profileページ
 
 .btn_set a{
   display: block;
-  width: 20px;
+  width: 50px;
   margin: 10px;
 }
 
 .btn_set a:hover{
   opacity: 1;
 }
+
