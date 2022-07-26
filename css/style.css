@@ -387,6 +387,10 @@ profileページ
   margin-right: 30px;
 }
 
+body {
+  background-color: rgb(255, 245, 228);
+  font-family: "MS Pゴシック",sans-serif;
+}
 
 
 /*======================================================
