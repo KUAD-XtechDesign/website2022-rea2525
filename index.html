@@ -1,81 +1,40 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-
+<head>
+    <meta charset="UTF-8">
+    <title>ImageMapサンプル</title>
     <!-- cdnからjquery読み込み -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
-    
     <script src="./js/main.js"></script>
-    <title>トップページ</title>
-  </head>
-  <body>
-    <header>
-      <div class="inner">
-        <div id="menu_btn"></div>
-        <p id="header_logo">
-          <a href="./index.html"><img src="./images/logo.svg" alt="" /></a>
-        </p>
-        <ul id="global_menu">
-          <li><a href="./profile.html">profile</a></li>
-          <li><a href="./works.html">works</a></li>
-          <li><a href="./slide.html">slide</a></li>
-          <li><a href="./report.html">report</a></li>
-        </ul>
-      </div>
-    </header>
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <img src="images/hiru_moji.png">
+  <div class="img_container">
+    <img src="images/web_hiru.png" alt="Image" width="100%" height="100%"/>
+    <p class="item" style="width: 14%;height: 26%;top: 12%;left: 30%;" data-txt="最近セミの鳴き声で起こされるよね"></p>
+    <p class="item" style="width: 42%;height: 19%;top: 61%;left: 35%;" data-txt="本当の部屋にはマットレスがあるよ"></p>
+    <p class="item" style="width: 10%;height: 10%;top: 50%;left: 50%;" data-txt="アラームって５分おきに設定しちゃうよね"></p>
+    <p class="item" style="width: 22%;height: 37%;top: 53%;left: 0%;" data-txt="勉強机親戚にあげちゃった"></p>
+    <p class="item" style="width: 10%;height: 10%;top: 42%;left: 3%;" data-txt="朝一の冷たいお茶まじうまい"></p>
+    <p class="item" style="width: 23%;height: 42%;top: 35%;left: 81%;" data-txt="本棚にもう漫画が入らない。。。"></p>
+    <p class="item" style="width: 8%;height: 16%;top: 18%;left: 84%;" data-txt="ぬいぐるみが７体いるよ！！"></p>
+    <div class="item_txt"></div>
 
-    <div class="top_eye_catch">サイトの名前など</div>
-
-    <div class="contents">
-      <section class="sec">
-        <h2>更新履歴</h2>
-        <ul>
-          <li><a href="./report.html">レポートを追加しました</a></li>
-          <li><a href="./works.html">WORKSページを追加しました</a></li>
-        </ul>
-      </section>
-
-      <section class="sec">
-        <h2>MENU</h2>
-        <div class="link_menu">
-          <div class="each_link">
-            <div class="link_pic">
-              <img src="./images/toy01.jpg" />
-            </div>
-            <div class="link_txt">
-              <p class="link_title">PROFILE</p>
-              <div>
-                これまでの経歴を紹介しますダミーテキストこれまでの経歴を紹介しますダミーテキストこれまでの経歴を紹介しますダミーテキストこれまでの経歴を紹介しますダミーテキスト<br />
-                これまでの経歴を紹介しますダミーテキストこれまでの経歴を紹介しますダミーテキスト
-              </div>
-              <a class="link_btn" href="./profile.html">Go!</a>
-            </div>
-          </div>
-
-          <div class="each_link">
-            <div class="link_pic">
-              <img src="./images/toy02.jpg" />
-            </div>
-            <div class="link_txt">
-              <p class="link_title">WORKS</p>
-              <div>
-                作品を紹介しますダミーテキスト作品を紹介しますダミーテキスト作品を紹介しますダミーテキスト作品を紹介しますダミーテキスト作品を紹介しますダミーテキスト作品を紹介しますダミーテキスト
-              </div>
-              <a class="link_btn" href="./works.html">Go!</a>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div class="btn_set">
+      <a href="./yoru.html"><img src="images/yoru_icon.png"></a>
+      <a href="./profile.html"><img src="images/hiru_smail.png"></a>
+      <a href="https://www.instagram.com/s.rea2525/?hl=ja" target="_blank"><img src="images/hiru_instagram.png"></a>
+      <a href="https://twitter.com/I_like_amaimon" target="_blank"><img src="images/hiru_Twitter.png"></a>
     </div>
+</div>
 
-    <footer>名前など</footer>
-  </body>
+
+</body>
 </html>
+ 
